@@ -24,4 +24,5 @@ export default defineConfig({
             },
         },
     },
+    base: '/React_basic/',
 });
