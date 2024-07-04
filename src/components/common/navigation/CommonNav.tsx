@@ -19,6 +19,8 @@ function CommonNav() {
     const [navigation, setNavigation] = useState<Navigation[]>(navJson);
     const [page, setPage] = useRecoilState(pageState);
     const [search, setSearch] = useRecoilState(searchState);
+    console.log(page);
+    console.log(search);
 
     useEffect(() => {
         navigation.forEach((nav: Navigation) => {
