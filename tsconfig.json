@@ -33,6 +33,6 @@
         "noImplicitAny": false,
         "strictNullChecks": false
     },
-    "include": ["src"],
+    "include": ["src", "src/recoil/selectors"],
     "references": [{ "path": "./tsconfig.node.json" }]
 }

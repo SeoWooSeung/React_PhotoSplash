@@ -4,9 +4,11 @@
     justify-content: space-between;
 
     width: 100%;
-    height: 56px;
+    line-height: 2.5;
 
     padding: 0 16px;
+
+    border-bottom: 1px solid $color-white-100;
 
     &__logoBox {
         display: flex;
@@ -17,8 +19,10 @@
 
         gap: 8px;
 
+        cursor: pointer;
+
         &__logo {
-            height: 75px;
+            height: 32px;
         }
         &__title {
             font-size: 24px;
