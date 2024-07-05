@@ -8,9 +8,9 @@ function App() {
         <RecoilRoot>
             <BrowserRouter>
                 <Routes>
-                    <Route index path="/" element={<MainPage />} />
-                    <Route path="/search/:id" element={<MainPage />} />
-                    <Route path="/bookmark" element={<BoomarkPage />} />
+                    <Route index path="/React_PhotoSplash/" element={<MainPage />} />
+                    <Route path="/React_PhotoSplash/search/:id" element={<MainPage />} />
+                    <Route path="/React_PhotoSplash/bookmark" element={<BoomarkPage />} />
                 </Routes>
             </BrowserRouter>
         </RecoilRoot>

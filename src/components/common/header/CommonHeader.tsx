@@ -6,8 +6,8 @@ function CommonHeader() {
 
     //북마크 페이지로 이동
     const moveToPage = (filter: string) => {
-        if (filter === 'main') navigate('/');
-        if (filter === 'bookmark') navigate('/bookmark');
+        if (filter === 'main') navigate('/React_PhotoSplash/');
+        if (filter === 'bookmark') navigate('/React_PhotoSplash/bookmark');
     };
 
     return (
