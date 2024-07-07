@@ -47,7 +47,11 @@ function CommonSearchBar() {
                     onChange={onChange}
                     onKeyDown={hadleKeyDown}
                 />
-                <img src="src/assets/icons/icon-search.svg" alt="" onClick={onSearch} />
+                <img
+                    src="https://seowooseung.github.io/React_PhotoSplash/src/assets/icons/icon-search.svg"
+                    alt=""
+                    onClick={onSearch}
+                />
             </div>
         </div>
     );
