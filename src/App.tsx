@@ -6,7 +6,7 @@ import BoomarkPage from '@pages/bookmark/index';
 function App() {
     return (
         <RecoilRoot>
-            <BrowserRouter>
+            <BrowserRouter basename="/React_PhotoSplash">
                 <Routes>
                     <Route index path="/React_PhotoSplash" element={<MainPage />} />
                     <Route path="/React_PhotoSplash/search/:id" element={<MainPage />} />
