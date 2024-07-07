@@ -18,6 +18,7 @@ export default defineConfig({
             '@apis': fileURLToPath(new URL('./src/apis', import.meta.url)),
         },
     },
+
     // css 전역 사용
     css: {
         preprocessorOptions: {
