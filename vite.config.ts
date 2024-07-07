@@ -18,6 +18,14 @@ export default defineConfig({
             '@apis': fileURLToPath(new URL('./src/apis', import.meta.url)),
         },
     },
+    build: {
+        rollupOptions: {
+            output: {
+                entryFileNames: '[name].[hash].js',
+                assetFileNames: '[name].[hash].[ext]',
+            },
+        },
+    },
 
     // css 전역 사용
     css: {
