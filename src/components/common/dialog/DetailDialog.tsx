@@ -49,7 +49,7 @@ function DetailDialog({ data, handleDialog }: Props) {
 
         //ESC키를 눌렀을 때, 다이얼로그 창 닫기
         const escKeyDownCloseDialog = (event: any) => {
-            console.log('함수');
+            console.log('esc닫기');
             if (event.key === 'Escape') {
                 closeDialog();
             }
