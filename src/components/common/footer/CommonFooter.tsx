@@ -4,6 +4,8 @@ import { imageData } from '@/recoil/selectors/imageSelector';
 import { pageState } from '@/recoil/atoms/pageState';
 import { searchState } from '@/recoil/atoms/searchState';
 import styles from './CommonFooter.module.scss';
+import rightArrow from '@assets/icons/icon-arrowRight.svg';
+import leftArrow from '@assets/icons/icon-arrowLeft.svg';
 
 function CommonFooter() {
     const imgSelector = useRecoilValueLoadable(imageData);
@@ -52,7 +54,7 @@ function CommonFooter() {
         <footer className={styles.footer}>
             <div className={styles.pagination}>
                 <button className={styles.pagination__button} onClick={moveToPrev}>
-                    <img src="src/assets/icons/icon-arrowLeft.svg" alt="" />
+                    <img src={leftArrow} alt="" />
                 </button>
                 {/* 변경될 UI 부분 */}
                 {/* <span>1</span> */}
@@ -89,7 +91,7 @@ function CommonFooter() {
                         }
                     })}
                 <button className={styles.pagination__button} onClick={moveToNext}>
-                    <img src="src/assets/icons/icon-arrowRight.svg" alt="" />
+                    <img src={rightArrow} alt="" />
                 </button>
             </div>
         </footer>

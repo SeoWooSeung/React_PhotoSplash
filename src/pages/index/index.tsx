@@ -36,7 +36,7 @@ function index() {
             {/* 공통 네비게이션 UI 부분 */}
             <CommonNav />
             <div className={styles.page__contents}>
-                <div className={styles.page__contents__introBox}>
+                <div className={styles.page__contents__introBox} >
                     <div className={styles.wrapper}>
                         <span className={styles.wrapper__title}>PhotoSplash</span>
                         <span className={styles.wrapper__desc}>
